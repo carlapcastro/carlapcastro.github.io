@@ -1,15 +1,55 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
 .outer {
-  background-color: aqua;
-  display: flex;
 
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 30px;
 }
 .top {
   flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3DCD4;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.bios {
+  background-color: #ECC9C7;
+  flex: 1;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  border-radius: 30px;
+}
+
+.dancer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #D1CFC0;
+  height: 80%;
+  width: 250px;
+  border-radius: 20px;
+}
+
+.avatar {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.bios {
-  flex: 1;
+img {
+  width: 100px;
+  height: auto;
+  border-radius: 50px;
 }

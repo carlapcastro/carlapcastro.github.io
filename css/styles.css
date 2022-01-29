@@ -1,3 +1,4 @@
+@charset 'UTF-8';
 body {
   height: 100vh;
   width: 100vw;
@@ -19,6 +20,7 @@ body {
   background-color: #F3DCD4;
   border-radius: 30px;
   margin-bottom: 30px;
+  padding: 30px;
 }
 
 .bios {
@@ -26,17 +28,24 @@ body {
   flex: 1;
   display:flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   justify-content: space-evenly;
   border-radius: 30px;
+  padding: 30px;
+  @media (min-width: 525px) {
+    flex-direction: row;
+  }
 }
 
 .dancer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10px;
+  padding: 5px;
   justify-content: space-around;
-  background-color: #D1CFC0;
+  background-color: #fef0e1;
   height: 80%;
   width: 250px;
   border-radius: 20px;

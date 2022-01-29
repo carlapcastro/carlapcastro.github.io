@@ -1,3 +1,15 @@
 .outer {
   background-color: aqua;
+  display: flex;
+
+}
+.top {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bios {
+  flex: 1;
 }

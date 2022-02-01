@@ -47,8 +47,17 @@ body {
   justify-content: space-around;
   background-color: #fef0e1;
   height: 80%;
-  width: 250px;
+  width: 350px;
   border-radius: 20px;
+}
+
+.bio {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .avatar {
